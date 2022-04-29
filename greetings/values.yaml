@@ -1,0 +1,19 @@
+service:
+  name: greetings
+  type: ClusterIP
+  app: greetings
+  port: 80
+  targetPort: 5000
+
+deployment:
+  name: greetings
+  app: greetings
+  image: registry.gitlab.com/akseliwc/dotnetapp:12
+  containerPort: 5000
+
+ingress:
+  name: myingress
+  host: akseliwc.ddns.net
+  port: 80
+
+  

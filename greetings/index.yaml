@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  greetings:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-29T15:25:29.1192248+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 0f308cb2f0810236da1f29ab6cfc65cd9f01c63b8c31520b3731d2d75114fe8a
+    name: greetings
+    type: application
+    urls:
+    - greetings-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-29T15:25:29.1147692+02:00"
